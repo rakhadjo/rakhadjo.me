@@ -1,78 +1,95 @@
 {
   "main": {
-    "name": "Rakha Djokosoetono - ⚠️ work in progress ⚠️",
-    "description": "I'm a current undergrad at the University of Manchester. Expected to graduate 2023 🤞 Welcome to my one-pager",
+    "name": "Rakha Djokosoetono",
+    "description": "I'm a current undergrad at the University of Manchester graduating 2023 🤞 Welcome to my one-pager",
     "image": "profilepic.jpg",
-    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "bio": "I'm Rakha Djokosoetono, currently a third year Computer Science student at The University of Manchester. I started coding in 2015. Throughout my journey, I've taught myself various languages and technologies, and put them to use in my various roles and greenfield projects. I'm no superstar programmer, but I try my best everyday.",
+    "contactmessage": "Want to get in touch? Awesome!",
+    "email": "rakha@djokosoetono.com",
+    "phone": "+44(0)7871347950",
     "github": "https://github.com/rakhadjo",
     "project": "https://projects.rakhadjo.me",
     "address": {
-      "street": "(Your Street)",
-      "city": "(Your City)",
-      "state": "(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street": "Rusholme, Manchester",
+      "city": "England",
+      "state": "United Kingdom",
+      "zip": "M14 5AE"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
+    "website": "https://www.rakhadjo.me",
+    "resumedownload": "./static/resume.pdf",
     "social": [
       {
         "name": "facebook",
-        "url": "https://github.com/nordicgiant2/react-nice-resume",
+        "url": "https://facebook.com/rakhadjo",
         "className": "fa fa-facebook"
       },
       {
         "name": "twitter",
-        "url": "http://twitter.com",
+        "url": "http://twitter.com/rakhadjo",
         "className": "fa fa-twitter"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url": "https://www.linkedin.com/in/rakhadjo/",
         "className": "fa fa-linkedin"
       },
       {
         "name": "instagram",
-        "url": "http://instagram.com/tbaker_x",
+        "url": "http://instagram.com/rakhadjo",
         "className": "fa fa-instagram"
       },
       {
         "name": "github",
-        "url": "https://github.com/nordicgiant2/react-nice-resume",
+        "url": "https://github.com/rakhadjo",
         "className": "fa fa-github"
       }
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "school": "University?",
-        "degree": "Masters in Beer tasting",
-        "graduated": "April 2017",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "University of Manchester",
+        "degree": "MEng Computer Science",
+        "graduated": "September 2018 - June 2023 (expected)",
+        "description": "87% First Year Average, 85% Second Year Average"
       },
       {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
+        "school": "Jakarta Intercultural School (JIS)",
+        "degree": "IB Diploma Programme",
         "graduated": "March 2013",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description": "Vice President of the Indonesian Students Society. Curriculum advisor for the NXT GEN Robotics Society"
       }
     ],
     "work": [
       {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2018 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Garuda HQ",
+        "title": "Dev & Hackathon Experience Officer",
+        "years": "August 2021 - Present",
+        "description": "A student-led initiative focused on cultivating Indonesia's technology talents through the GarudaHacks Hackathon, and more in the works. Created and Launched the GarudaHacks Discord Server for hacker communications. Wrote and Deployed the Hackathon Landing Page"
       },
       {
-        "company": "Super Cool Studio",
-        "title": "Junior bug fixer",
-        "years": "March 2017 - February 2018",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "SPE Solution",
+        "title": "Developer",
+        "years": "April 2019 - Sep 2019",
+        "description": "SPE Solution provides financial management technology platform solutions for modern businesses. Created and Maintained a REST API built with MongoDB and Java Spring Boot, as an internal project for human resources allocation"
+      },
+      {
+        "company": "Docotel Group",
+        "title": "Programmer",
+        "years": "August 2018 - September 2018",
+        "description": "Training Scheme: Deep Dive into Java 8's features by calling a NEWS API, displayed results locally"
+      },
+      {
+        "company": "RightCloud Asia",
+        "title": "Cloud Specialist",
+        "years": "June 2017 - July 2017",
+        "description": "Cloud migration consulting & transformation company, based in Singapore. Attended client meetings to discuss cloud migration from on-prem tech processes. Conducted market research on cloud competitiveness between AWS, Azure and Google Cloud. Liaised with central Singapore Team."
+      },
+      {
+        "company": "Silicon Straits Saigon",
+        "title": "Python Programmer",
+        "years": "October 2016",
+        "description": "Training Scheme: Created an entertainment Slack Bot using Python, pushed to the company Slack Workspace. Attended client meetings on technical contingency planning on Software Infrastructure"
       }
     ],
     "skills": [
