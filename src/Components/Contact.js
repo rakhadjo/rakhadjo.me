@@ -26,7 +26,7 @@ class Contact extends Component {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({"form-name": "contactForm", ...this.state}),
+      body: encode({ "form-name": event.target.getAttribute("name"), ...this.state }),
     })
       .then(() => alert("Success!"))
       .catch((error) => alert(error));
@@ -45,7 +45,7 @@ class Contact extends Component {
     const phone = this.props.data.phone;
     const message = this.props.data.contactmessage;
 
-    const { inp_name, inp_email, inp_subject, inp_message } = this.state
+    const { inp_name, inp_email, inp_subject, inp_message } = this.state;
 
     return (
       <section id="contact">
@@ -76,7 +76,7 @@ class Contact extends Component {
               >
                 <fieldset>
                   <div>
-                  <input type="hidden" name="form-name" value="contactForm" />
+                    <input type="hidden" name="form-name" value="contactForm" />
                   </div>
                   <div>
                     <label htmlFor="contactName">
