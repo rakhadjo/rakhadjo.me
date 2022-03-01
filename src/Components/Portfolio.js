@@ -33,6 +33,7 @@ class Portfolio extends Component {
               >
                 {projects}
               </div>
+              <h1>More on <a href="https://github.com/rakhadjo">github.com/rakhadjo</a></h1>
             </div>
           </div>
         </Fade>
