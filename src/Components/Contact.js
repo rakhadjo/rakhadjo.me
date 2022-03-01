@@ -10,7 +10,7 @@ const encode = (data) => {
 class Contact extends Component {
   constructor(props) {
     super(props);
-    this.state = { name: "", email: "", subject: "", message: "" };
+    this.state = { name: "test", email: "test@rakhadjo.me", subject: "boi", message: "boi" };
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -21,14 +21,14 @@ class Contact extends Component {
   }
 
   handleSubmit(event) {
-    //alert("a query has been submitted: " + this.state.value);
+    //alert("a query has been submitted: " + this.state);
 
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": event.target.getAttribute("name"), ...this.state }),
     })
-      .then(() => alert("Success!"))
+      .then(() => alert("Success: " +  event.target.getAttribute("name")))
       .catch((error) => alert(error));
 
     event.preventDevault();
