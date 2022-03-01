@@ -10,14 +10,14 @@ const encode = (data) => {
 class Contact extends Component {
   constructor(props) {
     super(props);
-    this.state = { value: "" };
+    this.state = { name: "", email: "", subject: "", message: "" };
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
   handleChange(event) {
-    this.setState({ value: event.target.value });
+    this.setState({ [event.target.name]: event.target.value });
   }
 
   handleSubmit(event) {
@@ -44,6 +44,8 @@ class Contact extends Component {
     const zip = this.props.data.address.zip;
     const phone = this.props.data.phone;
     const message = this.props.data.contactmessage;
+
+    const { inp_name, inp_email, inp_subject, inp_message } = this.state
 
     return (
       <section id="contact">
@@ -74,7 +76,7 @@ class Contact extends Component {
               >
                 <fieldset>
                   <div>
-
+                  <input type="hidden" name="form-name" value="contactForm" />
                   </div>
                   <div>
                     <label htmlFor="contactName">
@@ -86,6 +88,7 @@ class Contact extends Component {
                       size="35"
                       id="contactName"
                       name="contactName"
+                      value={inp_name}
                       onChange={this.handleChange}
                     />
                   </div>
@@ -100,6 +103,7 @@ class Contact extends Component {
                       size="35"
                       id="contactEmail"
                       name="contactEmail"
+                      value={inp_email}
                       onChange={this.handleChange}
                     />
                   </div>
@@ -112,6 +116,7 @@ class Contact extends Component {
                       size="35"
                       id="contactSubject"
                       name="contactSubject"
+                      value={inp_subject}
                       onChange={this.handleChange}
                     />
                   </div>
@@ -124,6 +129,7 @@ class Contact extends Component {
                       cols="50"
                       rows="15"
                       id="contactMessage"
+                      value={inp_message}
                       name="contactMessage"
                     ></textarea>
                   </div>
