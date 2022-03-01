@@ -66,7 +66,7 @@ class Contact extends Component {
             <div className="eight columns">
               <form
                 //onSubmit="handleSubmit()"
-                //method="post"
+                method="post"
                 id="contactForm"
                 name="contactForm"
                 netlify
