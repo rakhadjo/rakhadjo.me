@@ -1,7 +1,39 @@
 import React, { Component } from "react";
 import { Fade, Slide } from "react-reveal";
 
+const encode = (data) => {
+  return Object.keys(data)
+    .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&");
+};
+
 class Contact extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { value: "" };
+
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleChange(event) {
+    this.setState({ value: event.target.value });
+  }
+
+  handleSubmit(event) {
+    alert("a query has been submitted: " + this.state.value);
+
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({"form-name": "contactForm", ...this.state}),
+    })
+      .then(() => alert("Success!"))
+      .catch((error) => alert(error));
+
+    event.preventDevault();
+  }
+
   render() {
     if (!this.props.data) return null;
 
@@ -32,7 +64,13 @@ class Contact extends Component {
         <div className="row">
           <Slide left duration={1000}>
             <div className="eight columns">
-              <form action="" method="post" id="contactForm" name="contactForm">
+              <form
+                //onSubmit="handleSubmit()"
+                //method="post"
+                id="contactForm"
+                name="contactForm"
+                netlify
+              >
                 <fieldset>
                   <div>
                     <label htmlFor="contactName">
