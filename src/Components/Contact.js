@@ -21,7 +21,7 @@ class Contact extends Component {
   }
 
   handleSubmit(event) {
-    alert("a query has been submitted: " + this.state.value);
+    //alert("a query has been submitted: " + this.state.value);
 
     fetch("/", {
       method: "POST",
@@ -65,13 +65,17 @@ class Contact extends Component {
           <Slide left duration={1000}>
             <div className="eight columns">
               <form
-                //onSubmit="handleSubmit()"
+                onSubmit={this.handleSubmit}
                 method="post"
                 id="contactForm"
                 name="contactForm"
                 netlify
+                data-neltify="true"
               >
                 <fieldset>
+                  <div>
+
+                  </div>
                   <div>
                     <label htmlFor="contactName">
                       Name <span className="required">*</span>
