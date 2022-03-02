@@ -53,6 +53,8 @@ class Contact extends Component {
     const phone = this.props.data.phone;
     const message = this.props.data.contactmessage;
 
+    const { inp_name, inp_email, inp_subject, inp_message } = this.state;
+
     return (
       <section id="contact">
         <Fade bottom duration={1000}>
@@ -73,8 +75,7 @@ class Contact extends Component {
           <Slide left duration={1000}>
             <div className="eight columns">
               <form
-                //onSubmit={this.handleSubmit}
-                method="POST"
+                onSubmit={this.handleSubmit}
                 id="contactForm"
                 name="contactForm"
                 data-netlify="true"
@@ -93,6 +94,8 @@ class Contact extends Component {
                       size="35"
                       id="contactName"
                       name="contactName"
+                      value={inp_name}
+                      onChange={this.handleChange}
                     />
                   </div>
 
@@ -106,6 +109,8 @@ class Contact extends Component {
                       size="35"
                       id="contactEmail"
                       name="contactEmail"
+                      value={inp_email}
+                      onChange={this.handleChange}
                     />
                   </div>
 
@@ -117,6 +122,8 @@ class Contact extends Component {
                       size="35"
                       id="contactSubject"
                       name="contactSubject"
+                      value={inp_subject}
+                      onChange={this.handleChange}
                     />
                   </div>
 
@@ -129,11 +136,13 @@ class Contact extends Component {
                       rows="15"
                       id="contactMessage"
                       name="contactMessage"
+                      value={inp_message}
+                      onChange={this.handleChange}
                     ></textarea>
                   </div>
 
                   <div>
-                    <button type="submit" className="submit">
+                    <button className="submit">
                       Send
                     </button>
                   </div>
