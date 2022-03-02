@@ -74,10 +74,9 @@ class Contact extends Component {
             <div className="eight columns">
               <form
                 //onSubmit={this.handleSubmit}
-                method="post"
+                method="POST"
                 id="contactForm"
                 name="contactForm"
-                netlify
                 data-netlify="true"
               >
                 <fieldset>
@@ -94,7 +93,6 @@ class Contact extends Component {
                       size="35"
                       id="contactName"
                       name="contactName"
-                      
                     />
                   </div>
 
@@ -108,7 +106,6 @@ class Contact extends Component {
                       size="35"
                       id="contactEmail"
                       name="contactEmail"
-                      
                     />
                   </div>
 
@@ -120,7 +117,6 @@ class Contact extends Component {
                       size="35"
                       id="contactSubject"
                       name="contactSubject"
-                      
                     />
                   </div>
 
