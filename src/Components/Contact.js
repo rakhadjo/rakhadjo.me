@@ -53,8 +53,6 @@ class Contact extends Component {
     const phone = this.props.data.phone;
     const message = this.props.data.contactmessage;
 
-    const { inp_name, inp_email, inp_subject, inp_message } = this.state;
-
     return (
       <section id="contact">
         <Fade bottom duration={1000}>
@@ -75,7 +73,7 @@ class Contact extends Component {
           <Slide left duration={1000}>
             <div className="eight columns">
               <form
-                onSubmit={this.handleSubmit}
+                //onSubmit={this.handleSubmit}
                 method="post"
                 id="contactForm"
                 name="contactForm"
@@ -96,8 +94,7 @@ class Contact extends Component {
                       size="35"
                       id="contactName"
                       name="contactName"
-                      value={inp_name}
-                      onChange={this.handleChange}
+                      
                     />
                   </div>
 
@@ -111,8 +108,7 @@ class Contact extends Component {
                       size="35"
                       id="contactEmail"
                       name="contactEmail"
-                      value={inp_email}
-                      onChange={this.handleChange}
+                      
                     />
                   </div>
 
@@ -124,8 +120,7 @@ class Contact extends Component {
                       size="35"
                       id="contactSubject"
                       name="contactSubject"
-                      value={inp_subject}
-                      onChange={this.handleChange}
+                      
                     />
                   </div>
 
@@ -137,7 +132,6 @@ class Contact extends Component {
                       cols="50"
                       rows="15"
                       id="contactMessage"
-                      value={inp_message}
                       name="contactMessage"
                     ></textarea>
                   </div>
