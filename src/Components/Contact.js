@@ -76,6 +76,8 @@ class Contact extends Component {
             <div className="eight columns">
               <form
                 onSubmit={this.handleSubmit}
+                method="POST"
+                action="/"
                 id="contactForm"
                 name="contactForm"
                 data-netlify="true"
@@ -142,7 +144,7 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                    <button className="submit">
+                    <button type="submit" className="submit">
                       Send
                     </button>
                   </div>
