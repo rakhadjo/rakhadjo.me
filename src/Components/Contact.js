@@ -21,7 +21,7 @@ class Contact extends Component {
   }
 
   handleSubmit(event) {
-    //alert("a query has been submitted: " + this.state);
+    alert("a query has been submitted: " + this.state);
 
     fetch("/", {
       method: "POST",
@@ -135,10 +135,7 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                    <button className="submit">Submit</button>
-                    <span id="image-loader">
-                      <img alt="" src="images/loader.gif" />
-                    </span>
+                    <button type="submit" className="submit">Send</button>
                   </div>
                 </fieldset>
               </form>
