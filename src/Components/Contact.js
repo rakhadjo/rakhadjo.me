@@ -22,6 +22,7 @@ class Contact extends Component {
   }
 
   handleChange(event) {
+    alert("fuck you as well asshole")
     this.setState({ [event.target.name]: event.target.value });
   }
 
@@ -144,7 +145,7 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                    <button type="submit" className="submit">
+                    <button onclick={alert("fuck you")}>
                       Send
                     </button>
                   </div>
