@@ -10,7 +10,12 @@ const encode = (data) => {
 class Contact extends Component {
   constructor(props) {
     super(props);
-    this.state = { name: "test", email: "test@rakhadjo.me", subject: "boi", message: "boi" };
+    this.state = {
+      name: "test",
+      email: "test@rakhadjo.me",
+      subject: "boi",
+      message: "boi",
+    };
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -26,9 +31,12 @@ class Contact extends Component {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": event.target.getAttribute("name"), ...this.state }),
+      body: encode({
+        "form-name": event.target.getAttribute("name"),
+        ...this.state,
+      }),
     })
-      .then(() => alert("Success: " +  event.target.getAttribute("name")))
+      .then(() => alert("Success: " + event.target.getAttribute("name")))
       .catch((error) => alert(error));
 
     event.preventDevault();
@@ -72,7 +80,7 @@ class Contact extends Component {
                 id="contactForm"
                 name="contactForm"
                 netlify
-                data-neltify="true"
+                data-netlify="true"
               >
                 <fieldset>
                   <div>
@@ -135,7 +143,9 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                    <button type="submit" className="submit">Send</button>
+                    <button type="submit" className="submit">
+                      Send
+                    </button>
                   </div>
                 </fieldset>
               </form>
