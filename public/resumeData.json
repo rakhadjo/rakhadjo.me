@@ -21,27 +21,27 @@
       {
         "name": "facebook",
         "url": "https://facebook.com/rakhadjo",
-        "className": "fa fa-facebook"
+        "className": "fab fa-facebook"
       },
       {
         "name": "twitter",
         "url": "http://twitter.com/rakhadjo",
-        "className": "fa fa-twitter"
+        "className": "fab fa-twitter"
       },
       {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/rakhadjo/",
-        "className": "fa fa-linkedin"
+        "className": "fab fa-linkedin"
       },
       {
         "name": "instagram",
         "url": "http://instagram.com/rakhadjo",
-        "className": "fa fa-instagram"
+        "className": "fab fa-instagram"
       },
       {
         "name": "github",
         "url": "https://github.com/rakhadjo",
-        "className": "fa fa-github"
+        "className": "fab fa-github"
       }
     ]
   },

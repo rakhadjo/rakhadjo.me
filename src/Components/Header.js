@@ -14,8 +14,6 @@ class Header extends Component {
     return (
       <header id="home">
         <ParticlesBg type="circle" bg={true} />
-      
-        
 
         <div className="row banner">
           <div className="banner-text">
@@ -28,11 +26,14 @@ class Header extends Component {
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                <a href={project} className={`button btn project-btn scrolldown smoothscroll`}>
+                <a
+                  href={project}
+                  className={`button btn project-btn scrolldown smoothscroll`}
+                >
                   <i className="fa fa-book"></i>Projects
                 </a>
                 <a href={github} className="button btn github-btn">
-                  <i className="fa fa-github"></i>Github
+                  <i className="fab fa-github"></i>Github
                 </a>
               </ul>
             </Fade>
