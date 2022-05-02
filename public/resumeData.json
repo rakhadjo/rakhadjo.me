@@ -21,27 +21,27 @@
       {
         "name": "facebook",
         "url": "https://facebook.com/rakhadjo",
-        "className": "fa fa-facebook"
+        "className": "fab fa-facebook"
       },
       {
         "name": "twitter",
         "url": "http://twitter.com/rakhadjo",
-        "className": "fa fa-twitter"
+        "className": "fab fa-twitter"
       },
       {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/rakhadjo/",
-        "className": "fa fa-linkedin"
+        "className": "fab fa-linkedin"
       },
       {
         "name": "instagram",
         "url": "http://instagram.com/rakhadjo",
-        "className": "fa fa-instagram"
+        "className": "fab fa-instagram"
       },
       {
         "name": "github",
         "url": "https://github.com/rakhadjo",
-        "className": "fa fa-github"
+        "className": "fab fa-github"
       }
     ]
   },
@@ -63,8 +63,14 @@
     "work": [
       {
         "company": "Garuda HQ",
+        "title": "Director of Partnerships & Events",
+        "years": "March 2022 - Present",
+        "description": ""
+      },
+      {
+        "company": "",
         "title": "Dev & Hackathon Experience Officer",
-        "years": "August 2021 - Present",
+        "years": "August 2021 - March 2022",
         "description": "A student-led initiative focused on cultivating Indonesia's technology talents through the GarudaHacks Hackathon, and more in the works. Created and Launched the GarudaHacks Discord Server for hacker communications. Wrote and Deployed the Hackathon Landing Page"
       },
       {
@@ -126,18 +132,29 @@
   "portfolio": {
     "projects": [
       {
-        "title": "My Blog",
-        "category": "My personal blog",
-        "image": "01.jpg",
-        "url": "https://blog.rakhadjo.me"
-      }, 
+        "title": "Programmable 2D Cellular Automata & Simulator",
+        "category": "project",
+        "image": "gears.jpeg",
+        "url": "https://projects.rakhadjo.me/y3-project"
+      },
       {
-        "title": "My Blog",
-        "category": "My personal blog",
-        "image": "01.jpg",
-        "url": "https://blog.rakhadjo.me"
+        "title": "SpeakEasy",
+        "category": "project",
+        "image": "gears.jpeg",
+        "url": "https://github.com/rakhadjo/speakeasy"
+      },
+      {
+        "title": "Cursed Images API",
+        "category": "project",
+        "image": "gears.jpeg",
+        "url": "https://cursedimg.herokuapp.com/"
+      },
+      {
+        "title": "HTM-HELL",
+        "category": "project",
+        "image": "gears.jpeg",
+        "url": "https://projects.rakhadjo.me/htm-hell"
       }
-      
     ]
   }
 }

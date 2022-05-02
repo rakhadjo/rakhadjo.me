@@ -23,7 +23,7 @@ class Footer extends Component {
               <ul className="social-links">{networks}</ul>
 
               <ul className="copyright">
-                <li>&copy; Copyright 2021 Rakha Djokosoetono</li>
+                <li>&copy; Copyright 2022 Rakha Djokosoetono</li>
               </ul>
             </div>
           </Fade>
