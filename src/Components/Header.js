@@ -8,6 +8,7 @@ class Header extends Component {
 
     const project = this.props.data.project;
     const github = this.props.data.github;
+    const blog = this.props.data.blog;
     const name = this.props.data.name;
     const description = this.props.data.description;
 
@@ -26,15 +27,24 @@ class Header extends Component {
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                <a
-                  href={project}
-                  className={`button btn project-btn scrolldown smoothscroll`}
-                >
-                  <i className="fa fa-book"></i>Projects
-                </a>
-                <a href={github} className="button btn github-btn">
-                  <i className="fab fa-github"></i>Github
-                </a>
+                <li>
+                  <a href={github} className="button btn github-btn">
+                    <i className="fab fa-github"></i>Github
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href={project}
+                    className={`button btn project-btn scrolldown smoothscroll`}
+                  >
+                    <i className="fa fa-book"></i>Projects
+                  </a>
+                </li>
+                <li>
+                  <a href={blog} className="button btn blog-btn">
+                    <i className="fa fa-blog"></i>Blog
+                  </a>
+                </li>
               </ul>
             </Fade>
           </div>
