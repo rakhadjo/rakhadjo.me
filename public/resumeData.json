@@ -11,15 +11,14 @@
     "project": "#portfolio",
     "blog": "https://blog.rakhadjo.me",
     "address": {
-      "street": "Rusholme, Manchester",
+      "street": "Manchester",
       "city": "England",
       "state": "United Kingdom",
-      "zip": "M14 5AE"
+      "zip": "M1 7FA"
     },
     "website": "https://www.rakhadjo.me",
     "resumedownload": "./static/resume.pdf",
-    "social": [
-      {
+    "social": [{
         "name": "facebook",
         "url": "https://facebook.com/rakhadjo",
         "className": "fab fa-facebook"
@@ -47,8 +46,7 @@
     ]
   },
   "resume": {
-    "education": [
-      {
+    "education": [{
         "school": "University of Manchester",
         "degree": "MEng Computer Science",
         "graduated": "September 2018 - June 2023 (expected)",
@@ -57,7 +55,7 @@
       {
         "school": "Jakarta Intercultural School (JIS)",
         "degree": "IB Diploma Programme",
-        "graduated": "March 2013",
+        "graduated": "March 2018",
         "description": "Vice President of the Indonesian Students Society. Curriculum advisor for the NXT GEN Robotics Society"
       }
     ],
