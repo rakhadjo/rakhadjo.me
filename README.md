@@ -4,6 +4,9 @@
 
 Rakha Djokosoetono personal website built with React. Deployed on Netlify.
 
+### Running
+Clone the repository, Run `npm i` then `npm run start`.
+
 ### Credits
 [Nordic Giant](https://github.com/nordicgiant2/react-nice-resume) and [Tim Baker](https://github.com/tbakerx/react-resume-template)
 
