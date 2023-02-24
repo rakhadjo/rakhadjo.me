@@ -40,6 +40,19 @@ class Resume extends Component {
       );
     });
 
+    const organizations = this.props.data.organizations.map(function (organizations) {
+      return (
+        <div key={organizations.org}>
+          <h3>{organizations.org}</h3>
+          <p className="info">
+            {organizations.title}
+            <span>&bull;</span> <em className="date">{organizations.years}</em>
+          </p>
+          <p>{organizations.description}</p>
+        </div>
+      );
+    });
+
     return (
       <section id="resume">
         <Slide left duration={1300}>
@@ -69,6 +82,19 @@ class Resume extends Component {
             <div className="nine columns main-col">{work}</div>
           </div>
         </Slide>
+
+        <Slide left duration={1300}>
+          <div className="row work">
+            <div className="three columns header-col">
+              <h1>
+                <span>Organizations</span>
+              </h1>
+            </div>
+
+            <div className="nine columns main-col">{organizations}</div>
+          </div>
+        </Slide>
+
       </section>
     );
   }

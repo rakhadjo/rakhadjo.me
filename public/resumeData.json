@@ -9,16 +9,16 @@
     "phone": "+44(0)7871347950",
     "github": "https://github.com/rakhadjo",
     "project": "#portfolio",
+    "blog": "https://blog.rakhadjo.me",
     "address": {
-      "street": "Rusholme, Manchester",
+      "street": "Manchester",
       "city": "England",
       "state": "United Kingdom",
-      "zip": "M14 5AE"
+      "zip": "M1 7FA"
     },
     "website": "https://www.rakhadjo.me",
     "resumedownload": "./static/resume.pdf",
-    "social": [
-      {
+    "social": [{
         "name": "facebook",
         "url": "https://facebook.com/rakhadjo",
         "className": "fab fa-facebook"
@@ -46,8 +46,7 @@
     ]
   },
   "resume": {
-    "education": [
-      {
+    "education": [{
         "school": "University of Manchester",
         "degree": "MEng Computer Science",
         "graduated": "September 2018 - June 2023 (expected)",
@@ -56,22 +55,27 @@
       {
         "school": "Jakarta Intercultural School (JIS)",
         "degree": "IB Diploma Programme",
-        "graduated": "March 2013",
+        "graduated": "March 2018",
         "description": "Vice President of the Indonesian Students Society. Curriculum advisor for the NXT GEN Robotics Society"
       }
     ],
-    "work": [
+    "work": [{
+        "company": "ARM Ltd.",
+        "title": "Embedded Systems Engineer",
+        "years": "July 2022 - Present",
+        "description": ""
+      },
       {
         "company": "Garuda HQ",
         "title": "Director of Partnerships & Events",
-        "years": "March 2022 - Present",
-        "description": ""
+        "years": "March 2022 - August 2022",
+        "description": "Garuda HQ is a student-led initiative focused on cultivating Indonesia's technology talents through the GarudaHacks Hackathon, and more in the works. Prospected and cold-contacted companies to sponsor the Hackathon and in charge of event handling throughout the hackathon"
       },
       {
         "company": "",
         "title": "Dev & Hackathon Experience Officer",
         "years": "August 2021 - March 2022",
-        "description": "A student-led initiative focused on cultivating Indonesia's technology talents through the GarudaHacks Hackathon, and more in the works. Created and Launched the GarudaHacks Discord Server for hacker communications. Wrote and Deployed the Hackathon Landing Page"
+        "description": "Created and Launched the GarudaHacks Discord Server for hacker communications. Wrote and Deployed the Hackathon Landing Page"
       },
       {
         "company": "SPE Solution",
@@ -83,7 +87,7 @@
         "company": "Docotel Group",
         "title": "Programmer",
         "years": "August 2018 - September 2018",
-        "description": "Training Scheme: Deep Dive into Java 8's features by calling a NEWS API, displayed results locally"
+        "description": "Training Scheme: Deep Dive into Java 8's features by calling a NEWS API, displayed results locally through an application with a Graphical User Interface"
       },
       {
         "company": "RightCloud Asia",
@@ -95,11 +99,61 @@
         "company": "Silicon Straits Saigon",
         "title": "Python Programmer",
         "years": "October 2016",
-        "description": "Training Scheme: Created an entertainment Slack Bot using Python, pushed to the company Slack Workspace. Attended client meetings on technical contingency planning on Software Infrastructure"
+        "description": "Underwent a training scheme to create a simple Slack Bot from Python, then pushed to operate in the company's slack workspace. Basic functionality bot. Its most advanced feature being a number-guessing game. Additionally, attended client meetings in technical contingency planning regarding software infrastructure."
       }
     ],
-    "skills": [
+    "organizations": [
       {
+        "org": "PPI Greater Manchester",
+        "title": "President",
+        "years": "November 2021 - Present",
+        "description": ""
+      },
+      {
+        "org": "",
+        "title": "Head of Professional Development",
+        "years": "November 2020 - November 2021",
+        "description": "In charge of developing the professional employability of Indonesian Students in Greater Manchester by hosting online workshops and inviting industry-speakers for webinar events."
+      },
+      {
+        "org": "UniCS - UoM Computer Science Society",
+        "title": "President",
+        "years": "May 2021 - Jun 2022",
+        "description": ""
+      },
+      {
+        "org": "",
+        "title": "Secretary",
+        "years": "May 2020 - May 2021",
+        "description": ""
+      },
+      {
+        "org": "",
+        "title": "Public Relations Staff",
+        "years": "September 2019 - May 2020",
+        "description": "Coordinated with the public relations team in sharing UniCS' events, announcements and sponsor's messages throughout all platforms. Worked under the Chief Publications Officer. Responsible with sharing through Facebook, our biggest public relations platform."
+      },
+      {
+        "org": "AIESEC @ Manchester",
+        "title": "Secretary",
+        "years": "May 2020 - May 2021",
+        "description": "Creating opportunities for young "
+      },
+      {
+        "org": "",
+        "title": "Sales Specialist",
+        "years": "Sep 2019 - Jan 2020",
+        "description": "Responsible for creating more exchange (internship) opportunities through acquisition of new leads, re-raising the number of opportunities with current partners."
+      },
+      {
+        "org": "Manchester International Society",
+        "title": "Events Organizer",
+        "years": "May 2020 - May 2021",
+        "description": ""
+      }
+  ],
+
+    "skills": [{
         "name": "Python",
         "level": "60%"
       },
@@ -130,8 +184,7 @@
     ]
   },
   "portfolio": {
-    "projects": [
-      {
+    "projects": [{
         "title": "Programmable 2D Cellular Automata & Simulator",
         "category": "project",
         "image": "gears.jpeg",
