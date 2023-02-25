@@ -49,39 +49,39 @@
     "education": [{
         "school": "University of Manchester",
         "degree": "MEng Computer Science",
-        "graduated": "September 2018 - June 2023 (expected)",
-        "description": "87% First Year Average, 85% Second Year Average"
+        "graduated": "September 2022 - June 2023 (expected)",
+        "description": ""
+      },
+      {
+        "school": "University of Manchester",
+        "degree": "BSc Computer Science",
+        "graduated": "September 2019 - June 2022",
+        "description": ""
       },
       {
         "school": "Jakarta Intercultural School (JIS)",
         "degree": "IB Diploma Programme",
         "graduated": "March 2018",
-        "description": "Vice President of the Indonesian Students Society. Curriculum advisor for the NXT GEN Robotics Society"
+        "description": ""
       }
     ],
     "work": [{
         "company": "ARM Ltd.",
         "title": "Embedded Systems Engineer",
         "years": "July 2022 - Present",
-        "description": ""
+        "description": "Provided support for Non‑Invasive Debugging through Trace Generation for an Armv8‑a AARCH64 Architecture. Optimized, Rebuilt, and Flashed Linux Kernels for the ARM Juno Development Board as a prerequisite in providing support. Overhauled the support‑building time from a three‑month process to a thirty‑minute simple procedure. Researched and Reported findings for internal company documentation through Atlassian Confluence"
       },
       {
         "company": "Garuda HQ",
-        "title": "Director of Partnerships & Events",
+        "title": "Hackathon Experience Officer",
         "years": "March 2022 - August 2022",
-        "description": "Garuda HQ is a student-led initiative focused on cultivating Indonesia's technology talents through the GarudaHacks Hackathon, and more in the works. Prospected and cold-contacted companies to sponsor the Hackathon and in charge of event handling throughout the hackathon"
-      },
-      {
-        "company": "",
-        "title": "Dev & Hackathon Experience Officer",
-        "years": "August 2021 - March 2022",
-        "description": "Created and Launched the GarudaHacks Discord Server for hacker communications. Wrote and Deployed the Hackathon Landing Page"
+        "description": "Launched the GarudaHacks Discord Server for Hackathon communications of 3000+ participants. Provided GitHub and Sponsors’ Toolkits Infrastructure support throughout the running of the Hackathon. Deployed the Hackathon Landing Page using GitHub and Netlify, built with HTML, CSS and JavaScript. Promoted the Hackathon through short‑form videos, reached an audience of 7000 accounts"
       },
       {
         "company": "SPE Solution",
         "title": "Developer",
         "years": "April 2019 - Sep 2019",
-        "description": "SPE Solution provides financial management technology platform solutions for modern businesses. Created and Maintained a REST API built with MongoDB and Java Spring Boot, as an internal project for human resources allocation"
+        "description": "Created and maintained an internal micro‑service for human resource allocation. Used Java Spring, MongoDB in an MVC design pattern. Tested, then Integrated the micro‑service within the company in facilitating human resources allocation. Compiled technical documentation of the resulting micro‑service for future maintenance and upgrades"
       },
       {
         "company": "Docotel Group",
@@ -104,10 +104,15 @@
     ],
     "organizations": [
       {
+        "org": "PPI United Kingdom",
+        "title": "Head of Technology",
+        "years": "November 2022 - Present",
+        "description": "Developed, Deployed, Maintained and Executed the Indonesian Student Census Program in the UK for a population of 3000+ students. Procured organizational emails for 150+ staff members and subdomains for 30+ PPI local chapters throughout the UK. Overhauled and redesigned the website, standardized the online presence of local PPI chapters through subdomain integration. Systematized and Optimized the Tech Team Workflow and Documented resources in manifesto"
+      },{
         "org": "PPI Greater Manchester",
         "title": "President",
-        "years": "November 2021 - Present",
-        "description": ""
+        "years": "November 2021 - October 2022",
+        "description": "Represented the interests of 300+ Indonesian Students and 100+ Indonesian Diaspora in Greater Manchester. Facilitated communications and contact between Indonesian Citizens in Manchester and the Indonesian Embassy in London. Supervised and advised the planning and execution of 10 social, professional Indonesian events. Revitalized and Planned the Greater Manchester Indonesian Cultural Festival (ICF), the flagship event of PPI Greater Manchester. "
       },
       {
         "org": "",
@@ -119,7 +124,7 @@
         "org": "UniCS - UoM Computer Science Society",
         "title": "President",
         "years": "May 2021 - Jun 2022",
-        "description": ""
+        "description": "Represented the interests of 800+ computer science students at the University of Manchester. Advised the creation and running of UniCS Hackathons (GreatUniHack, StudentHack, and UniCS GameJam). Oversaw the planning and execution of our tech‑based and social events (e.g. keynote or panel discussions). Supervised the development of the UniCS Developer team’s projects"
       },
       {
         "org": "",
@@ -151,7 +156,7 @@
         "years": "May 2020 - May 2021",
         "description": ""
       }
-  ],
+    ],
 
     "skills": [{
         "name": "Python",
